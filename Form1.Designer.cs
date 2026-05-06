@@ -70,13 +70,14 @@
             // 
             // button1
             // 
+            button1.BackColor = Color.FromArgb(255, 128, 0);
             button1.Font = new Font("Segoe UI", 14.25F);
             button1.Location = new Point(175, 340);
             button1.Name = "button1";
             button1.Size = new Size(53, 57);
             button1.TabIndex = 9;
             button1.Text = "=";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             // 
             // button5
             // 
@@ -90,13 +91,14 @@
             // 
             // button2
             // 
+            button2.BackColor = Color.FromArgb(255, 128, 0);
             button2.Font = new Font("Segoe UI", 14.25F);
             button2.Location = new Point(175, 282);
             button2.Name = "button2";
             button2.Size = new Size(53, 57);
             button2.TabIndex = 13;
             button2.Text = "+";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
@@ -130,13 +132,14 @@
             // 
             // button9
             // 
+            button9.BackColor = Color.FromArgb(255, 128, 0);
             button9.Font = new Font("Segoe UI", 14.25F);
             button9.Location = new Point(175, 225);
             button9.Name = "button9";
             button9.Size = new Size(53, 57);
             button9.TabIndex = 17;
             button9.Text = "-";
-            button9.UseVisualStyleBackColor = true;
+            button9.UseVisualStyleBackColor = false;
             // 
             // button10
             // 
@@ -170,13 +173,14 @@
             // 
             // button13
             // 
+            button13.BackColor = Color.FromArgb(255, 128, 0);
             button13.Font = new Font("Segoe UI", 14.25F);
             button13.Location = new Point(175, 168);
             button13.Name = "button13";
             button13.Size = new Size(53, 57);
             button13.TabIndex = 21;
             button13.Text = "*";
-            button13.UseVisualStyleBackColor = true;
+            button13.UseVisualStyleBackColor = false;
             // 
             // button14
             // 
@@ -210,13 +214,14 @@
             // 
             // button17
             // 
+            button17.BackColor = Color.FromArgb(255, 128, 0);
             button17.Font = new Font("Segoe UI", 14.25F);
             button17.Location = new Point(175, 109);
             button17.Name = "button17";
             button17.Size = new Size(53, 57);
             button17.TabIndex = 25;
             button17.Text = "/";
-            button17.UseVisualStyleBackColor = true;
+            button17.UseVisualStyleBackColor = false;
             // 
             // button18
             // 
@@ -253,7 +258,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientActiveCaption;
-            ClientSize = new Size(263, 450);
+            ClientSize = new Size(256, 450);
             Controls.Add(button17);
             Controls.Add(button18);
             Controls.Add(button19);
