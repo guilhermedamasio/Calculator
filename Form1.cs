@@ -32,5 +32,10 @@ namespace calcApp
                 currentCalculation = "";
             }
         }
+        private void btn_Clear_Click(object sender, EventArgs e)
+        {
+            txtOut.Text = "0";
+            currentCalculation = "";
+        }
     }
 }
