@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            txtOut = new TextBox();
             button6 = new Button();
             button1 = new Button();
             button5 = new Button();
@@ -50,13 +50,13 @@
             button20 = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // txtOut
             // 
-            textBox1.Font = new Font("Segoe UI", 14.25F);
-            textBox1.Location = new Point(28, 70);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(200, 33);
-            textBox1.TabIndex = 4;
+            txtOut.Font = new Font("Segoe UI", 14.25F);
+            txtOut.Location = new Point(28, 70);
+            txtOut.Name = "txtOut";
+            txtOut.Size = new Size(200, 33);
+            txtOut.TabIndex = 4;
             // 
             // button6
             // 
@@ -278,15 +278,16 @@
             Controls.Add(button1);
             Controls.Add(button5);
             Controls.Add(button6);
-            Controls.Add(textBox1);
+            Controls.Add(txtOut);
             Name = "Form1";
             Text = "Calculator";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private TextBox textBox1;
+        private TextBox txtOut;
         private Button button6;
         private Button button1;
         private Button button5;
