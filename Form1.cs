@@ -37,5 +37,14 @@ namespace calcApp
             txtOut.Text = "0";
             currentCalculation = "";
         }
+        private void btn_clearEntry_Click(object sender, EventArgs e)
+        {
+            if (currentCalculation.Length > 0)
+            {
+                currentCalculation = currentCalculation.Remove(currentCalculation.Length - 1,1);
+            }
+            txtOut.Text = currentCalculation;
+
+        }
     }
 }
